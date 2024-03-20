@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module defines a class to manage file storage for hbnb clone"""
+"""This module defines The class to manage file storage for hbnb clone"""
 import json
 
 
@@ -9,7 +9,7 @@ class FileStorage:
     __objects = {}
 
     def all(self, cls=None):
-        """Returns a dictionary of models currently in storage"""
+        """Returns the dictionary of models currently in storage"""
         if cls is None:
             return self.__objects
         cls_name = cls.__name__
