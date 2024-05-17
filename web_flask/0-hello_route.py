@@ -12,7 +12,7 @@ app.url_map.strict_slashes = False
 @app.route('/')
 def index():
     '''The home page.'''
-    return render_template("10-hbnb_filters.html")
+    return 'Hello HBNB!'
 
 
 if __name__ == '__main__':
